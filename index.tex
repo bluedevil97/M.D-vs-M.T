@@ -30,7 +30,7 @@
 		\begin{abstract}
 			%% Text of abstract
 			
-The data warehouses in English take each importance day, as organizations move from schemes of only data collection to schemes of analysis of the same. However, in spite of the great diffusion of the concepts related to data warehouses, there is not too much Information available in Spanish regarding the methodologies fo implement them In this short article we will try to provide a general explanation of one of the most used methodologies, the Kimball methodology 
+The data warehouses in English take each importance day, as organizations move from schemes of only data collection to schemes of analysis of the same. However, in spite of the great diffusion of the concepts related to data warehouses, there is not too much Information available in Spanish regarding the methodologies fo implement them In this short article we will try to provide a general explanation of one of the most used methodologies. 
 		\end{abstract}
 \end{frontmatter}
 %%
@@ -41,7 +41,7 @@ The data warehouses in English take each importance day, as organizations move f
 	
 	%% main text
 	\section{Resumen}
-Los almacenes de datos (data warehouses en inglés) toman cada día mayor importancia, a medida que las organizaciones pasan de esquemas de sólo recolección de datos a esquemas de análisis de los mismos. Sin embargo a pesar de la gran difusión de los conceptos relacionados con los almacenes de datos, no existe demasiada información disponible en castellano en cuanto a las metodologías para implementarlos. En este breve artículo intentaremos brindar una explicación general de una de las metodologías más usadas, la metodología de Kimball \\
+Los almacenes de datos (data warehouses en inglés) toman cada día mayor importancia, a medida que las organizaciones pasan de esquemas de sólo recolección de datos a esquemas de análisis de los mismos. Sin embargo a pesar de la gran difusión de los conceptos relacionados con los almacenes de datos, no existe demasiada información disponible en castellano en cuanto a las metodologías para implementarlos. En este breve artículo intentaremos brindar una explicación general de una de las metodologías más usadas \\
 	%%
 	
 	%%
@@ -49,7 +49,7 @@ Los almacenes de datos (data warehouses en inglés) toman cada día mayor import
 	
 	%% main text
 
-\section{Objetivos}
+
 
 	%%
 	
@@ -59,6 +59,21 @@ Los almacenes de datos (data warehouses en inglés) toman cada día mayor import
 	%% main text
 
 \section{Marco Teorico}
+\subsection{Modelo Dimensional}
+El modelo de datos dimensional proporciona un método para simplificar y facilitar la comprensión de las bases de datos. Una base de datos dimensional se puede concebir como un cubo de tres o cuatro dimensiones en el que los usuarios pueden acceder a una porción de la base de datos a lo largo de cualquiera de sus dimensiones.\\
+
+Para crear una base de datos dimensional, necesita un modelo que le permita visualizar los datos.\\
+\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/jho1} 
+\end{center}
+Otro nombre que se utiliza para el modelo dimensional es esquema de estrella-unión. Los diseñadores de bases de datos utilizan este nombre porque el diagrama de este modelo parece una estrella con una tabla central alrededor de la cual se muestran un conjunto de otras tablas.\\
+
+La tabla central es la única tabla del esquema con varias uniones que la conectan con todas las demás tablas. Esta tabla central se denomina la tabla de hechos y las demás tablas se denominan tablas de dimensiones.\\
+
+Todas las tablas de dimensiones tienen una sola unión que las conecta con la tabla de hechos, independientemente de la consulta.\\
+\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/jho2} 
+\end{center}
 
 \subsection{Desarrollo de Modelo Tabular}
 

@@ -10,7 +10,7 @@ Juan Rodriguez:
 
 Jhordy Vizcarra:
 	
-	- https://blog.bi-geek.com/arquitectura-comparativa-inmon-y-kimball/
-	- https://churriwifi.wordpress.com/2010/04/19/15-2-ampliacion-conceptos-del-		modelado-dimensional/
-	- http://www.interaktiv.cl/blog/wp-content/uploads/2012/04/4.-		Metodologia_disegno_DW1.pdf
-	- http://tdan.com/data-warehouse-design-inmon-versus-kimball/20300
+	https://www.businessintelligence.info/definiciones/que-es-modelo-dimensional.html
+	https://www.ibm.com/support/knowledgecenter/es/SSGU8G_11.50.0/com.ibm.ddi.doc/ids_ddi_350
+	http://elpaladintecnologico.blogspot.com/2012/11/modelos-tabulares-vs-modelo.html
+	https://docs.microsoft.com/es-es/sql/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=sql-server-2017
