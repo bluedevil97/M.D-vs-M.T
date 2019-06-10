@@ -194,8 +194,35 @@ Sugerencias:
 
 \section{Diferencias}
 
-\section{Conclusion}
+\subsection{¿Qué modelo de datos utilizar? }
 
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/dif0} 
+\end{center}
+
+
+\subsection{Diferencias del Modelo Multidimensional vs Modelo Tabular}
+
+Diseño y Desarrollo\\
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/dif1} 
+\end{center}
+\pagebreak
+Desempeño y Escalabilidad\\
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/dif2} 
+\end{center}
+
+\section{Conclusiones}
+
+
+\begin{itemize}
+	\item Como conclusión Microsoft le está apuntando al modelo Tabular, puede consultar las mejoras de la próxima versión SQL 2016. En SQL 2012 y 2014 el modelo Tabular es bueno para BI pequeños y medianos volúmenes, para altos volúmenes es preferible el modelo Multidimensional.
+	\item Power View proporciona informes intuitivos adhoc para usuarios finales. 
+	\item El modelo tabular no admite el procesamiento paralelo de particiones, lo que puede tener un impacto significativo en el tiempo de procesamiento.
+	\item Microsoft realmente sabe cómo lidiar con los requisitos del usuario y sabe que faltaba un puente entre el modelo de base de datos de relaciones y el modelo MOLAP. 
+	\item Al introducir el motor xVelocity en SSAS y el modelo tabular incorporado, Microsoft proporciona herramientas de acceso al usuario que proporcionan una mejor solución con buena velocidad y rendimiento. 
+\end{itemize}
 
 %%
 	
@@ -205,19 +232,18 @@ Sugerencias:
 	%% main text
 
 	
-	
 	\newpage
 	
 		%ESTILO
-	   \bibliography{BIBLIOGRAFIA}		%ARCHIVO .bib
+	%ARCHIVO .bib
 	   \begin{thebibliography}{0}
-              \bibitem{Ronald} 
- 	    \bibitem{Angelo} 
-                 \bibitem{Juan} http://tdan.com/data-warehouse-design-inmon-versus-kimball/20300
-                  \bibitem{Jhordy} https://blog.bi-geek.com/arquitectura-comparativa-inmon-y-kimball/
-                  \bibitem{Jhordy} https://churriwifi.wordpress.com/2010/04/19/15-2-ampliacion-conceptos-del-modelado-dimensional/
-                    \bibitem{Brandon} https://twooctobers.com/blog/8-data-storytelling-concepts-with-examples/
-                   \bibitem{Brandon}https://www.ucasal.edu.ar/htm/ingenieria/cuadernos/archivos/5-p56-rivadera-formateado.pdf
+              \bibitem{Juan} https://bib.irb.hr/datoteka/102195.t09r02.pdf 
+                 \bibitem{Juan} https://www.sarjen.com/2016/03/15/what-are-the-pros-and-cons-of-tabular-model-over-multi-dimension-cube-and-relation-database/
+                 \bibitem{Juan} https://www.element61.be/en/resource/choice-between-tabular-or-multidimensional-models-sql-server-analysis-services-2012
+                  \bibitem{Jhordy} https://docs.microsoft.com/es-es/sql/analysis-services/comparing-tabular-and-multidimensional-solutions-ssas?view=sql-server-2017
+ \bibitem{Jhordy} https://www.businessintelligence.info/definiciones/que-es-modelo-dimensional.html
+                    \bibitem{Brandon} https://www.businessintelligence.info/definiciones/que-es-modelo-dimensional.html
+
 
          \end{thebibliography}
 	
